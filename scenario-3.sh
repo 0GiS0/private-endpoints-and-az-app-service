@@ -21,8 +21,8 @@ az network public-ip create \
 ADDRESS_POOL_FOR_VPN_CLIENTS=10.30.0.0/16
 
 # Azure Active Directory info
-#https://login.microsoftonline.com/e26de2cd-b981-4ec4-a628-95cb1e11debf
-TENANT_ID="e26de2cd-b981-4ec4-a628-95cb1e11debf"
+#https://login.microsoftonline.com/<YOUR_TENANT_ID>
+TENANT_ID="<YOUR_TENANT_ID>"
 AZURE_VPN_CLIENT_ID="41b23e61-6c1e-4545-b367-cd054e0ed4b4"
 #You have to consent Azure VPN application in your tenant first:
 https://login.microsoftonline.com/common/oauth2/authorize?client_id=41b23e61-6c1e-4545-b367-cd054e0ed4b4&response_type=code&redirect_uri=https://portal.azure.com&nonce=1234&prompt=admin_consent
